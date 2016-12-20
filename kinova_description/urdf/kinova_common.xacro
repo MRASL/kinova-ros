@@ -53,12 +53,12 @@
         <link name="${link_name}">
             <visual>
                 <geometry>
-                    <box size = "0 0 0"/>
+                    <box size = "0.001 0.001 0.001"/>
                 </geometry>
             </visual>
             <collision>
                 <geometry>
-                    <box size = "0 0 0"/>
+                    <box size = "0.001 0.001 0.001"/>
                 </geometry>
             </collision>
         </link>
@@ -98,5 +98,5 @@
 
     </xacro:macro>
 
-   
+
 </root>
